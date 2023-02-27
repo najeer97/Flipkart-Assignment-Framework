@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey) is selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey) is added to cart successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-27T14:57:13 IST" name="Suite" finished-at="2023-02-27T14:57:36 IST" duration-ms="23871">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T14:57:13 IST" name="Test" finished-at="2023-02-27T14:57:36 IST" duration-ms="23871">
+      <class name="com.najeer.flipkart.tests.EndToEndScenario">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.najeer.flipkart.tests.EndToEndScenario@6aba2b86]" started-at="2023-02-27T14:57:13 IST" name="configBeforeClass" finished-at="2023-02-27T14:57:20 IST" duration-ms="7490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method signature="purchaseAnItem()[pri:0, instance:com.najeer.flipkart.tests.EndToEndScenario@6aba2b86]" started-at="2023-02-27T14:57:20 IST" name="purchaseAnItem" finished-at="2023-02-27T14:57:36 IST" duration-ms="15894" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey) is selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey) is added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseAnItem -->
+        <test-method is-config="true" signature="congigAfterMethod(org.testng.ITestResult)[pri:0, instance:com.najeer.flipkart.tests.EndToEndScenario@6aba2b86]" started-at="2023-02-27T14:57:36 IST" name="congigAfterMethod" finished-at="2023-02-27T14:57:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseAnItem status=SUCCESS method=EndToEndScenario.purchaseAnItem()[pri:0, instance:com.najeer.flipkart.tests.EndToEndScenario@6aba2b86] output=APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey) is selected successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congigAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.najeer.flipkart.tests.EndToEndScenario@6aba2b86]" started-at="2023-02-27T14:57:36 IST" name="configAfterClass" finished-at="2023-02-27T14:57:36 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.najeer.flipkart.tests.EndToEndScenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
